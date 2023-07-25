@@ -5,7 +5,7 @@ let package = Package(
     name: "NSObject-Rx",
     platforms: [
         .iOS(.v9),
-        .macOS(.v10_14)
+        .macOS(.v10_13)
     ],
     products: [
         .library(name: "NSObject-Rx", targets: ["NSObject-Rx"]),
